@@ -1,0 +1,43 @@
+@media screen and (min-width: 535px) and (max-width: 824px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	body {
+		background: #429090;
+		font-family: 'Lobster', cursive;
+		color: #166767;
+	}
+	header {
+		background-color: #6BB1B1;
+		color: #166767;
+		padding-left: 1em;
+	}
+	img {
+		border-color: #A4D6D6;
+	}
+	small {
+		color: #166767;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 534px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	body {
+		background: #B8E067;
+		font-family: 'Indie Flower', cursive;
+		color: #759F21;
+	}
+	header {
+		background-color: #95C03F;
+		color: #E5F8BE;
+		padding-left: 1em;
+	}
+	img {
+		display: none;
+	}
+	small {
+		color: #759F21;
+	}
+}
